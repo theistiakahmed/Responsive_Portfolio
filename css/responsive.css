@@ -197,6 +197,10 @@
   color: #fff;
   font-size: 26px;
 }
+.navbar{
+    width: 25%;
+}
+
 
 .navbar-collapse{
   width: 92%;
@@ -267,16 +271,20 @@
   }
 
   .banner h1 {
-    font-size: 32px;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: start;
   }
 
   .banner h3 {
-    font-size: 20px;
+    font-size: 15px;
+    text-align: start;
   }
 
   .banner p {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: start;
+    padding-right: 200px;
   }
 
   .btn a {
@@ -287,8 +295,11 @@
   .socialIcon a i {
     font-size: 24px;
     padding-top: 35px;
+    
   }
-
+.socialIcon{
+    text-align: start;
+}
   .aboutHeading h3,
   .storeText h4,
   .teamText h4,
